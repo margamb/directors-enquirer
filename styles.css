@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.menu {
+  width: 100%;
+}
+
+.navigation-link {
+  outline: 1px solid red;
+  margin: 0;
+  width: 33%;
+  float:left;
+
+}
+
+.navigation-list {
+  list-style: none;
+  background: yellow;
+
+}
