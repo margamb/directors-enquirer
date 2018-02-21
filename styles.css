@@ -1,12 +1,18 @@
 body {
   margin: 10px;
   padding: 0;
-      font-family: Cambria, Georgia, serif;
+  font-family: Cambria, Georgia, serif;
+}
+
+a {
+  color: #890101;
+  text-decoration: none;
 }
 
 ul {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 
@@ -19,7 +25,6 @@ ul {
 }
 
 .navigation-list {
-  list-style: none;
   background: yellow;
 
 }
@@ -40,4 +45,40 @@ ul {
 
 .main {
   line-height: 1.4;
+}
+
+.image-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.figure {
+  width: 48.5%;
+  height: auto;
+  text-align: center;
+}
+
+.figure:nth-child(odd) {
+  margin-right: 3%;
+}
+
+.figure img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.figure-caption {
+  text-transform: uppercase;
+  display: block;
+  font-size: 10px;
+  font-family: "Book Antiqua", "Palatino Linotype", Georgia, serif;
+  letter-spacing: 0.1em;
+  padding: 5px 0 15px;
+}
+
+.figure-caption b {
+  display: block;
+  font-size: 14px;
 }
