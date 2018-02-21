@@ -1,6 +1,7 @@
 body {
-  margin: 0;
+  margin: 10px;
   padding: 0;
+      font-family: Cambria, Georgia, serif;
 }
 
 ul {
@@ -8,9 +9,6 @@ ul {
   padding: 0;
 }
 
-.menu {
-  width: 100%;
-}
 
 .navigation-link {
   outline: 1px solid red;
@@ -24,4 +22,22 @@ ul {
   list-style: none;
   background: yellow;
 
+}
+
+.logo-container {
+  text-align: center;
+  display: block;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.title {
+  font: normal 1.4em "Hoefler Text", "Baskerville old face", Garamond, "Times New Roman", serif;
+  text-align: center;
+  margin-bottom: 0.25em;
+  margin-top: 0;
+}
+
+.main {
+  line-height: 1.4;
 }
