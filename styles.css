@@ -1,5 +1,5 @@
 body {
-  margin: 10px;
+  margin: 15px;
   padding: 0;
   font-family: Cambria, Georgia, serif;
 }
@@ -17,23 +17,54 @@ ul {
 
 
 .navigation-link {
-  outline: 1px solid red;
   margin: 0;
-  width: 33%;
-  float:left;
+  width: 31%;
+  text-transform: uppercase;
+  display: block;
+  font-size: 10px;
+  font-family: Helvetica, Arial, sans-serif;
+  letter-spacing: 0;
+  padding: 10px 0;
+  border-bottom: 1px solid #999;
+  margin-right: 3.5%;
+}
 
+.navigation-link:last-child {
+  margin-right:0;
+}
+
+.navigation-link b {
+  display: block;
+  font-weight: normal;
 }
 
 .navigation-list {
-  background: yellow;
-
+  display: flex;
+  text-align: center;
+  border-top: 1px solid #999;
+  margin-top: 30px;
 }
 
 .logo-container {
   text-align: center;
   display: block;
-  padding-top: 40px;
+  padding-top: 25px;
   padding-bottom: 20px;
+}
+
+.secondary-title {
+  font-size: 1.4em;
+  text-transform: lowercase;
+  text-align: center;
+  margin: 0.75em 0 1em;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.amp {
+  font-family: Baskerville, Garamond, Palatino, "Palatino Linotype", "Hoefler Text", "Times New Roman", serif;
+  font-style: italic;
+  font-weight: normal;
 }
 
 .title {
@@ -44,7 +75,7 @@ ul {
 }
 
 .main {
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 .image-list {
