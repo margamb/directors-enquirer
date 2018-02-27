@@ -54,14 +54,21 @@ ul {
 }
 
 .secondary-title {
-  font-size: 1.4em;
-  text-transform: lowercase;
+  background: url(images/ornament.png) no-repeat 0 50%;
   text-align: center;
   margin: 0.75em 0 1em;
-  font-weight: 400;
   margin-bottom: 25px;
+  font-size: 1.4em;
+  text-transform: lowercase;
 }
-.secondary-title:before,
+
+.secondary-title b {
+  font-weight: 400;
+  background: #E4E4E4;
+  padding: 0 1em;
+}
+
+/* .secondary-title:before,
 .secondary-title:after {
 content: '';
 height: 1px;
@@ -78,7 +85,7 @@ position: relative;
 
 .secondary-title:after {
   margin-left: 5%;
-}
+} */
 
 .amp {
   font-family: Baskerville, Garamond, Palatino, "Palatino Linotype", "Hoefler Text", "Times New Roman", serif;
@@ -144,4 +151,19 @@ position: relative;
 .footer p {
   margin-bottom: 0.5em;
   line-height: 0.7;
+}
+
+@media only screen and (min-width: 401px) {
+  .figure {
+    width: 31.2%;
+    margin-left: 3%;
+  }
+
+  .figure:nth-child(odd) {
+    margin-right: 0;
+  }
+
+  .figure:nth-child(3n + 1) {
+    margin-left: 0%;
+  }
 }
