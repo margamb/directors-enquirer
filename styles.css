@@ -2,6 +2,7 @@ body {
   margin: 15px;
   padding: 0;
   font-family: Cambria, Georgia, serif;
+  background: #E4E4E4;
 }
 
 a {
@@ -60,6 +61,24 @@ ul {
   font-weight: 400;
   margin-bottom: 25px;
 }
+.secondary-title:before,
+.secondary-title:after {
+content: '';
+height: 1px;
+width: 20%;
+background: #999;
+display: inline-block;
+top: -5px;
+position: relative;
+}
+
+.secondary-title:before {
+  margin-right: 5%;
+}
+
+.secondary-title:after {
+  margin-left: 5%;
+}
 
 .amp {
   font-family: Baskerville, Garamond, Palatino, "Palatino Linotype", "Hoefler Text", "Times New Roman", serif;
@@ -112,4 +131,17 @@ ul {
 .figure-caption b {
   display: block;
   font-size: 14px;
+}
+
+.footer {
+  background: url(images/ornament.png) 50% 0 repeat-x;
+  font-size: 12px;
+  text-align: center;
+  padding: 40px 0 20px;
+  margin: 0;
+}
+
+.footer p {
+  margin-bottom: 0.5em;
+  line-height: 0.7;
 }
