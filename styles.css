@@ -163,6 +163,14 @@ ul {
     justify-content: flex-end;
   }
 
+  .logo-container {
+    background: url(./images/logo-bg.png) no-repeat 50% 0;
+    height: 250px;
+  }
+
+  .logo {
+    margin-top: 90px;
+  }
   .navigation-list {
     flex-direction: column;
     align-items: center;
@@ -170,7 +178,7 @@ ul {
   }
 
   .navigation-link {
-    width: 70%;
+    width: 60%;
     padding: 2em 0.5em;
     letter-spacing: 0.05em;
     font: 10px "Book Antiqua", "Palatino Linotype", Georgia, serif;
@@ -187,6 +195,11 @@ ul {
 
   .main-column {
     width: 65%;
-    margin-top: 150px;
+    margin-top: 120px;
+  }
+
+  .title {
+    font: normal 2em "Hoefler Text", "Baskerville old face", Garamond, "Times New Roman", serif;
+    margin: 0 1em 0.25em 1em;
   }
 }
