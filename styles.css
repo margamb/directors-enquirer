@@ -2,12 +2,12 @@ body {
   margin: 15px;
   padding: 0;
   font-family: Cambria, Georgia, serif;
-  background: #E4E4E4;
+  background: hsl(35, 15%, 90%);
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
 }
 
 a {
-  color: #890101;
+  color: hsl(14, 29%, 30%);
   text-decoration: none;
 }
 
@@ -65,7 +65,7 @@ ul {
 
 .secondary-title b {
   font-weight: 400;
-  background: #E4E4E4;
+  background: hsl(35, 15%, 90%);
   padding: 0 1em;
 }
 
@@ -105,7 +105,6 @@ ul {
 .figure img {
   width: 100%;
   border-radius: 10px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .figure-caption {
