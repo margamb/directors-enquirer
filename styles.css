@@ -55,7 +55,7 @@ ul {
 }
 
 .secondary-title {
-  background: url(images/ornament.png) no-repeat 0 50%;
+  background: url(images/ornament.png) no-repeat 50%;
   text-align: center;
   margin: 0.75em 0 1em;
   margin-bottom: 25px;
@@ -135,7 +135,7 @@ ul {
   line-height: 0.7;
 }
 
-@media only screen and (min-width: 401px) {
+@media only screen and (min-width: 401px) and (max-width: 1299px) {
   .figure {
     width: 31.2%;
     margin-left: 3%;
@@ -151,18 +151,6 @@ ul {
 }
 
 @media only screen and (min-width: 601px) {
-  body {
-    display: flex;
-  }
-
-  .header {
-    width: 32%;
-    margin-right: 3%;
-    display:flex;
-    flex-direction: column-reverse;
-    justify-content: flex-end;
-  }
-
   .logo-container {
     background: url(./images/logo-bg.png) no-repeat 50% 0;
     height: 250px;
@@ -170,11 +158,6 @@ ul {
 
   .logo {
     margin-top: 90px;
-  }
-  .navigation-list {
-    flex-direction: column;
-    align-items: center;
-    border-top: 0;
   }
 
   .navigation-link {
@@ -189,17 +172,87 @@ ul {
     font-size: 14px;
   }
 
+  .title {
+    font: normal 2em "Hoefler Text", "Baskerville old face", Garamond, "Times New Roman", serif;
+    margin: 0 1em 0.25em 1em;
+  }
+
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1299px) {
+  body {
+    display: flex;
+  }
+
+  .header {
+    width: 32%;
+    margin-right: 2%;
+    display:flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+  }
+
+  .navigation-list {
+    flex-direction: column;
+    align-items: center;
+    border-top: 0;
+  }
+
   .navigation-link:first-child {
     border-top: 1px solid #999;
   }
 
   .main-column {
-    width: 65%;
+    width: 63%;
     margin-top: 120px;
   }
+}
 
-  .title {
-    font: normal 2em "Hoefler Text", "Baskerville old face", Garamond, "Times New Roman", serif;
-    margin: 0 1em 0.25em 1em;
+@media only screen and (min-width: 1300px) {
+  .logo-container {
+    width: 20%;
+    display: inline-block;
+    margin-top: -100px;
   }
+
+  .logo {
+    margin-top: 90px;
+  }
+
+  .navigation-list {
+    width: 75%;
+    margin-left: 25%;
+    border-top: 0;
+    margin-top: 70px;
+  }
+
+  .main-column {
+    width: 75%;
+    margin-left: 25%;
+    margin-top: -150px;
+  }
+
+  .figure {
+    width: 13.9%;
+    margin-left: 3.2%;
+  }
+
+  .figure:nth-child(odd) {
+    margin-right: 0%;
+}
+
+  .figure:first-child {
+    margin-left: 0;
+  }
+
+  .footer {
+    margin-left: 35%;
+    width: 30%;
+
+  }
+
+  .footer p {
+    line-height: 1.4;
+  }
+
 }
